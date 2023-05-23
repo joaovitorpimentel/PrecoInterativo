@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <main>
+        <header class="header">
+              <div class="header__conteudo container">
+                    <h1>Simple, traffic-based pricing</h1>
+                        <p>
+                          Sign-up for our 30-day trial. No credit card required.
+                        </p>
+              </div>
+        </header>
+
+        <div class="cards">
+            <div class="container">
+                <article class="card">
+                      <div class="card__header">
+                          <p class="card_view" id="pageview_conteudo">
+                                100K Pageviews
+                          </p>
+
+                          <input    
+                                  type="range"
+                                  name="range"
+                                  class="slider"
+                                  id="range"
+                                  aria-label="input"
+                          />
+
+                          <h2 class="card_preco">
+                                <span id="preco">$16.00</span>
+                                <span class="card_duracao">/month</span>
+                          </h2>
+
+                          <div class="card_conteudo">
+                                <p>Monthly Billing</p>
+                                <input
+                                      type="checkbox"
+                                      name="check"
+                                      class="switch"
+                                      aria-label="input"
+                                      id="toogle_discount"
+                                />
+
+                                <p class="card_billing">Yearly Billing</p>
+                                <p class="card_discount">-25%<span> discount</span></p>
+                         </div>
+                      </div>
+
+                    <div class="card__footer">
+                      <ul class="card_list">
+
+                            <li class="card_item">
+                                  <img src="./images/icon-check.svg" alt="icon-check"/> Unlimited  websites
+                            </li>
+
+                            <li class="card_item">
+                              <img src="./images/icon-check.svg" alt="icon-check"/> 100% data ownership
+                             </li>
+
+                            <li class="card_item">
+                              <img src="./images/icon-check.svg" alt="icon-check"/> Email reports
+                            </li>
+                      </ul>
+
+                      <button class="btn btn-primario">
+                            Start my trial
+                      </button>
+
+                     </div>
+                </article>
+            </div>
+        </div>
+
+             <footer>
+                  <div class="attribution">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                    Coded by <a href="#">João Pimentel</a>.
+                  </div>
+            </footer>
+        </main>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
