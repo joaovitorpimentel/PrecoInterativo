@@ -128,6 +128,11 @@ li {
   padding: 0px 0px 50px 50px;
 }
 
+.btn_btn_secundario{
+ width: 60%;
+ text-align: center;
+}
+
 .btn__secundario{
   color: #836FFF;
   background-color: #191970;
