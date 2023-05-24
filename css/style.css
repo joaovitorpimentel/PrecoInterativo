@@ -1,1 +1,144 @@
+body {
+	font-family: 'Manrope';
+  background: url("/images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 30px;
+}
 
+.header {
+  padding: 100px;
+  text-align: center;
+  background: url("/images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card__header{
+  padding-top: 100px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 0px 0px rgb(175, 175, 175);
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__footer {
+  padding-top: 50px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 0px 1px 0px rgb(175, 175, 175);
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botao_primario {
+  padding-top: 15px;
+  background-color: white;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#range {
+  width: 85%;
+}
+
+.card_monthy{
+  color: grey;
+  padding-right: 15px;
+}
+
+.card_billing{
+  color: grey;
+  padding-left: 15px;
+}
+
+.card_discount{
+  padding-left: 15px;
+  color: orange;
+  background-position: 0px 0px 0px 0px;
+  border-radius: 15px;
+}
+
+
+.card_view {
+  color: grey;
+  font-size: 19px;
+  padding: 0px 200px 15px 50px;
+  display: flex;
+  text-align: start;
+  align-self: center;
+}
+
+.card_preco{
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+
+.card_cont{
+  padding: 0px 60px 50px 250px;
+  display: flex;
+  text-align: start;
+  background-color: white;
+}
+
+
+.card_duracao{
+  color: grey;
+}
+
+
+
+#preco {
+  font-size: 40px;
+  font-weight: bold
+}
+
+
+.card_item{
+  padding: 0px 0px 10px 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card_list{
+  padding: 0px 0px 50px 50px;
+}
+
+.btn__secundario{
+  display: flex;
+  color: #B0C4DE;
+  background-color:  #191970;
+  padding: 0px 150px 0px 0px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn__secundario:hover {
+  background: MediumBlue;
+}
+
+.attribution {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold
+}
+ p {
+  font-size: 16px;
+  padding-top: 15px;
+ }
