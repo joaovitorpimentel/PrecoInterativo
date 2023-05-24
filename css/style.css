@@ -3,15 +3,31 @@ body {
   background: url("/images/bg-pattern.svg");
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 100%;
   padding-top: 30px;
 }
 
 .header {
+  font-size: 10px;
+  padding: 0em 0em 0em 0em;
   padding: 100px;
   text-align: center;
   background: url("/images/pattern-circles.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%
+}
+
+.header p {
+  padding: 1rem;
+}
+
+.header__conteudo__cont p {
+  font-size: 19px;
+}
+
+.header h1 {
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .container {
@@ -20,7 +36,7 @@ body {
 }
 
 .card__header{
-  padding-top: 100px;
+  padding: 2rem 0rem 0rem 0rem;
   border-radius: 10px 10px 0px 0px;
   box-shadow: 0px 0px 0px 0px rgb(175, 175, 175);
   background-color: white;
@@ -29,7 +45,7 @@ body {
 }
 
 .card__footer {
-  padding-top: 50px;
+  padding: 2rem 0rem 0rem 0rem;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0px 0px 1px 0px rgb(175, 175, 175);
   background-color: white;
@@ -38,9 +54,8 @@ body {
 }
 
 .botao_primario {
-  padding-top: 15px;
+  padding: 3rem 0rem 3rem 0rem;
   background-color: white;
-  padding-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -57,13 +72,13 @@ body {
 
 .card_billing{
   color: grey;
-  padding-left: 15px;
+  padding: 0px 15px 0px 15px;
 }
 
 .card_discount{
-  padding-left: 15px;
+  padding-left: 0px;
   color: orange;
-  background-position: 0px 0px 0px 0px;
+  background-color: #FFE4C4;
   border-radius: 15px;
 }
 
@@ -95,7 +110,6 @@ body {
 }
 
 
-
 #preco {
   font-size: 40px;
   font-weight: bold
@@ -115,15 +129,18 @@ li {
 }
 
 .btn__secundario{
-  display: flex;
-  color: #B0C4DE;
-  background-color:  #191970;
-  padding: 0px 150px 0px 0px;
-  border: 1px solid #555;
-  border-radius: 5px;
-  text-align: center;
-  user-select: none;
-  cursor: pointer;
+  color: #836FFF;
+  background-color: #191970;
+	display: inline-block;
+	border-radius: 2rem;
+	padding: 0.75rem 1rem;
+	outline: none;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	transition: all 0.23s ease-in-out;
+	text-decoration: none;
+	min-width: 14rem;
+	border: none;
+	cursor: pointer;
 }
 
 .btn__secundario:hover {
@@ -134,11 +151,5 @@ li {
   padding-top: 50px;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: bold
-}
- p {
-  font-size: 16px;
-  padding-top: 15px;
- }
+ 
+
