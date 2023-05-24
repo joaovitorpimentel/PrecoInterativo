@@ -7,19 +7,19 @@ function handleMudarPreco(value) {
 	let valor = 8;
 
 	if ((value > 0) & (value <= 20)) {
-		pageviewsCount.textContent = '10K Pageviews';
+		pageviewsCount.textContent = '10K PAGEVIEWS';
 		valor = 8;
 	} else if (value > 20 && value <= 40) {
-		pageviewsCount.textContent = '50K Pageviews';
+		pageviewsCount.textContent = '50K PAGEVIEWS';
 		valor = 12;
 	} else if (value > 40 && value <= 60) {
-		pageviewsCount.textContent = '100K Pageviews';
+		pageviewsCount.textContent = '100K PAGEVIEWS';
 		valor = 16;
 	} else if (value > 60 && value <= 80) {
-		pageviewsCount.textContent = '500K Pageviews';
+		pageviewsCount.textContent = '500K PAGEVIEWS';
 		valor = 24;
 	} else if (value > 80 && value <= 100) {
-		pageviewsCount.textContent = '1M Pageviews';
+		pageviewsCount.textContent = '1M PAGEVIEWS';
 		valor = 36;
 	}
 
@@ -30,6 +30,13 @@ function handleMudarPreco(value) {
 		preco.textContent = `$${valor}.00`;
 	}
 
+	range.style.background = `linear-gradient(
+		to right,
+		hsl(174, 77%, 80%) 0%,
+		hsl(174, 77%, 80%) ${value}%,
+		 hsl(224, 65%, 95%) 50%,
+		 hsl(224, 65%, 95%) 100%
+	)`;
 
 }
 
