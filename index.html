@@ -6,7 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Interactive pricing component</title>
 
@@ -22,7 +24,7 @@
 <body>
     <main>
         <header class="header">
-              <div class="header__conteudo container">
+              <div class="header__conteudo__cont">
                     <h1>Simple, traffic-based pricing</h1>
                         <p>
                           Sign-up for our 30-day trial. No credit card required.
@@ -35,58 +37,61 @@
                 <article class="card">
                       <div class="card__header">
                           <p class="card_view" id="pageview_conteudo">
-                                100K Pageviews
-                          </p>
+                                100K PAGEVIEWS
+                         </p>
 
-                          <input    
-                                  type="range"
-                                  name="range"
-                                  class="slider"
-                                  id="range"
-                                  aria-label="input"
-                          />
-
+      
                           <h2 class="card_preco">
                                 <span id="preco">$16.00</span>
                                 <span class="card_duracao">/month</span>
                           </h2>
+                     </div>
 
-                          <div class="card_conteudo">
-                                <p>Monthly Billing</p>
-                                <input
-                                      type="checkbox"
-                                      name="check"
-                                      class="switch"
-                                      aria-label="input"
-                                      id="toogle_discount"
-                                />
+                     <div class="botao_primario">
+                              <input   
+                              type="range"
+                              name="range"
+                              class="slider"
+                              id="range"
+                              aria-label="input"
+                              />
+                     </div>
 
-                                <p class="card_billing">Yearly Billing</p>
-                                <p class="card_discount">-25%<span> discount</span></p>
-                         </div>
-                      </div>
+                     <div class="card_cont">
+                        <p class="card_monthy">Monthly Billing</p>
+                        <input
+                              type="checkbox"
+                              name="check"
+                              class="switch"
+                              aria-label="input"
+                              id="toogle_discount"
+                        />
+
+
+                        <p class="card_billing">Yearly Billing</p>
+                        <p class="card_discount">-25%<span> discount</span></p>
+                 </div>
 
                     <div class="card__footer">
                       <ul class="card_list">
 
                             <li class="card_item">
-                                  <img src="./images/icon-check.svg" alt="icon-check"/> Unlimited  websites
+                                  <img src="./images/icon-check.svg" alt="icon-check" class="lista"/> Unlimited  websites
                             </li>
 
                             <li class="card_item">
-                              <img src="./images/icon-check.svg" alt="icon-check"/> 100% data ownership
+                              <img src="./images/icon-check.svg" alt="icon-check" class="lista"> 100% data ownership
                              </li>
 
                             <li class="card_item">
-                              <img src="./images/icon-check.svg" alt="icon-check"/> Email reports
+                              <img src="./images/icon-check.svg" alt="icon-check" class="lista"/> Email reports
                             </li>
                       </ul>
+                               <p class="btn__secundario">Start my trial</p>
+                     </div>                  
+                                        
+                                           
 
-                      <button class="btn btn-primario">
-                            Start my trial
-                      </button>
-
-                     </div>
                 </article>
             </div>
         </div>
@@ -94,10 +99,10 @@
              <footer>
                   <div class="attribution">
                     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                    Coded by <a href="#">João Pimentel</a>.
+                    Coded by <a href="https://www.linkedin.com/in/joão-pimentel-831787186/">João Pimentel</a>.
                   </div>
             </footer>
         </main>
-        <script src="./js/main.js"></script>
+        <script src="./js/main.js"></script> 
     </body>
 </html>
