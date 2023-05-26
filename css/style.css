@@ -16,8 +16,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
+  justify-content: center;      
+  gap: 1.5rem;        
   height: 100%;
   background: url("/images/pattern-circles.svg");
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
   gap: 2.5rem;
 }
 
-.card-body {;
+.card-body {
   color: hsl(225, 20%, 60%);
   display: flex;
   align-items: center;
@@ -132,7 +132,7 @@ body {
 }
 
 .card-header-price-period {
-  color: grey;;
+  color: grey;
 }
 
 .card-header-slider {
@@ -154,9 +154,8 @@ body {
 }
 
 footer {
-  display: ;
-  padding: 1.5rem;
   text-align: center;
+  padding: 1rem;
 }
 
 
@@ -166,7 +165,7 @@ footer {
  input[type='range'] {
   -webkit-appearance:none;
   margin:10px 0;
-  width:100%
+  width:100%;
 }
 
 input[type='range']:focus {
@@ -361,7 +360,7 @@ body {
   "cardHeaderSlider cardHeaderSlider"
 }
 
-.card-body {;
+.card-body {
   display: flex;
   gap: 1rem;
 }
