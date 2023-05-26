@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles-collab.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <header class="header">
+    <div class="header-titles">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial.</p>
+      <p>No credit card required.</p>
+    </div>
+  </header>
+
+  <body>
+    <main class="card">
+      <div class="card-header">
+        <div id="card-header-pageview-counter">100K PAGEVIEWS</div>
+        <div class="card-header-slider">
+          <div class="slider_button">
+            <input
+              type="range"
+              name="range"
+              class="slider"
+              id="range"
+              aria-label="input"
+            />
+          </div>
+        </div>
+        <div class="card-header-price">
+          <span id="card-header-price-value">$16.00</span>
+          <span class="card-header-price-period">/month</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <p class="card-body-monthly">Monthly Billing</p>
+        <input
+          type="checkbox"
+          name="check"
+          class="switch"
+          aria-label="input"
+          id="toggle_discount"
+        />
+        <p class="card-body-billing">Yearly Billing</p>
+        <p class="card-body-discount">-25%<span> discount</span></p>
+      </div>
+      <div class="card-footer">
+        <ul class="card-list-items">
+          <li class="card-item">
+            <img src="./images/icon-check.svg" alt="icon-check" class="lista" />
+            Unlimited websites
+          </li>
+
+          <li class="card-item">
+            <img src="./images/icon-check.svg" alt="icon-check" class="lista" />
+            100% data ownership
+          </li>
+
+          <li class="card-item">
+            <img src="./images/icon-check.svg" alt="icon-check" class="lista" />
+            Email reports
+          </li>
+        </ul>
+
+        <div>
+          <p class="button-Sendtrial">Start my trial</p>
+        </div>
+      </div>
+    </main>
+    <script src="/js/main.js"></script>
+  </body>
+  <footer></footer>
+</html>
