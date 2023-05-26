@@ -2,7 +2,7 @@ body {
   font-family: 'Manrope';
   background: url("/images/bg-pattern.svg");
   background-repeat: no-repeat;
-  margin: 0 1rem;
+  margin: 1rem 1rem 1rem 0.5rem;
 }
 
 .header {
@@ -16,10 +16,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
+  justify-content: center;      
+  gap: 1.5rem;        
   height: 100%;
   background: url("/images/pattern-circles.svg");
+  background-size: 45%;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -32,20 +33,20 @@ body {
 
 .header-titles p {
   color: hsl(225, 20%, 60%);
-  max-width: 60%;
+  max-width: 65%;
   text-align: center;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 .card {
   box-shadow: 0rem 0rem 1rem 0rem rgb(175, 175, 175);
   display: flex;
   flex-direction: column;
+  width: max-content;
   background-color: white;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 3rem 2rem 3rem;
   border-radius: 0.5rem;
-  margin: 0.5rem 1rem 0rem 1rem;
-  max-width: 600px;
+  margin: 1px 1px 1px 1px;
 }
 
 .card-header {
@@ -57,13 +58,15 @@ body {
   gap: 2.5rem;
 }
 
-.card-body {;
+.card-body {
   color: hsl(225, 20%, 60%);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 3rem auto;
+  margin: 2rem auto;
+  width: 100px;
+  white-space: nowrap;
 }
 
 .card-item{
@@ -77,6 +80,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 1rem auto;
   gap: 2.5rem;
   padding: 1rem;
 }
@@ -114,9 +118,15 @@ body {
 }
 
 #toggle_discount {
-    width: 18%;
+  padding-right: 2.2rem; 
+    width: 5px;
 }
 
+
+.card-body-monthly, .card-body-billing, .card-body-discount {
+  padding: 1rem 0.5rem;
+  font-size:15px;
+}
 
 .card-body-discount {
   background-color: hsl(14, 92%, 95%);
@@ -132,11 +142,11 @@ body {
 }
 
 .card-header-price-period {
-  color: grey;;
+  color: grey;
 }
 
 .card-header-slider {
-  width: 100%;
+  width: 118%;
   grid-area: cardHeaderSlider;
 }
 
@@ -154,9 +164,8 @@ body {
 }
 
 footer {
-  display: ;
-  padding: 1.5rem;
   text-align: center;
+  padding: 1rem;
 }
 
 
@@ -166,7 +175,7 @@ footer {
  input[type='range'] {
   -webkit-appearance:none;
   margin:10px 0;
-  width:100%
+  width:100%;
 }
 
 input[type='range']:focus {
@@ -361,9 +370,10 @@ body {
   "cardHeaderSlider cardHeaderSlider"
 }
 
-.card-body {;
+.card-body {
   display: flex;
   gap: 1rem;
+  white-space: nowrap;
 }
 
 .card-footer {
@@ -388,10 +398,17 @@ body {
 
 .card-body-discount span {
   display: flex;
+  white-space: nowrap;
 }
 
 .card-header-slider {
   width: 500px;
+}
+
+.header-titles p {
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap
 }
 
 
