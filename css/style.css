@@ -25,7 +25,6 @@ body {
   background-position: center center;
 }
 
-
 .header-titles h1 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -85,6 +84,9 @@ body {
   padding: 1rem;
 }
 
+.card-item img{
+  padding-right: 10px;
+}
 
  .button-Sendtrial{
    color: hsl(224, 65%, 95%);
@@ -104,7 +106,6 @@ body {
  .button-Sendtrial:hover {
    background: #38387e;
  }
-
 
 
 #card-header-pageview-counter {
@@ -370,10 +371,11 @@ body {
   "cardHeaderSlider cardHeaderSlider"
 }
 
+
 .card-body {
   display: flex;
-  gap: 1rem;
-  white-space: nowrap;
+  gap: 0.2rem;
+  padding-left: 57px;
 }
 
 .card-footer {
@@ -381,6 +383,8 @@ body {
    grid-template-areas: 
    "cardFooterListItems buttonSendTrial" ;
 }
+
+
 
  .card-list-items {
    padding: 0rem 4rem 0rem 0rem;
@@ -397,8 +401,7 @@ body {
 
 
 .card-body-discount span {
-  display: flex;
-  white-space: nowrap;
+  display: inline;
 }
 
 .card-header-slider {
