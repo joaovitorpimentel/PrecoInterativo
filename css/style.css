@@ -12,6 +12,7 @@ body {
   justify-content: center; 
 }
 
+
 .header-titles {
   display: flex;
   flex-direction: column;
@@ -37,7 +38,7 @@ body {
   line-height: 1.5rem;
 }
 
-.card {
+.container-header {
   box-shadow: 0rem 0rem 1rem 0rem rgb(175, 175, 175);
   display: flex;
   flex-direction: column;
@@ -47,6 +48,7 @@ body {
   border-radius: 0.5rem;
   margin: 1px 1px 1px 1px;
 }
+
 
 .card-header {
   display: flex;
@@ -361,7 +363,7 @@ body {
   background-size: 100% 450px;
 }
 
-.card {
+.container-header {
    margin: auto;
 }
 
@@ -394,6 +396,17 @@ body {
   padding: 0rem 7rem 0rem 0rem;
 }
 
+
+#card-footer-id {
+  box-shadow: 0rem 0rem 1rem 0rem rgb(175, 175, 175);
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  background-color: white;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 0.5rem;
+  margin: 1px 1px 1px 1px;
+}
 
 #toggle_discount {
    width: 40px;
