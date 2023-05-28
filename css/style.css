@@ -49,6 +49,10 @@ body {
   margin: 1px 1px 1px 1px;
 }
 
+/*.line-division {
+  width: 100%;
+}*/
+
 
 .card-header {
   display: flex;
@@ -387,8 +391,8 @@ body {
 }
 
 
-
  .card-list-items {
+  text-align: start;
    padding: 0rem 4rem 0rem 0rem;
 }
 
